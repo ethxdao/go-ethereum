@@ -20,8 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereumfair/go-ethereum/params"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/params"
 )
 
 // NewApp creates an app with sane defaults.

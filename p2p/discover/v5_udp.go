@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/common/mclock"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
-	"github.com/ethereumfair/go-ethereum/p2p/enr"
-	"github.com/ethereumfair/go-ethereum/p2p/netutil"
+	"github.com/ethxdao/go-ethereum/common/mclock"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/p2p/discover/v5wire"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
+	"github.com/ethxdao/go-ethereum/p2p/enr"
+	"github.com/ethxdao/go-ethereum/p2p/netutil"
 )
 
 const (

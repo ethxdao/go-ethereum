@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereumfair/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common"
 )
 
 func (g *G2) one() *PointG2 {

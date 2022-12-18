@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/hexutil"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/trie"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/hexutil"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/trie"
 )
 
 //go:generate go run github.com/fjl/gencodec -type PayloadAttributesV1 -field-override payloadAttributesMarshaling -out gen_blockparams.go

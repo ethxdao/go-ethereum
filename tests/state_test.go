@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereumfair/go-ethereum/core"
-	"github.com/ethereumfair/go-ethereum/core/rawdb"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/core/vm"
-	"github.com/ethereumfair/go-ethereum/eth/tracers/logger"
+	"github.com/ethxdao/go-ethereum/core"
+	"github.com/ethxdao/go-ethereum/core/rawdb"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/core/vm"
+	"github.com/ethxdao/go-ethereum/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/hexutil"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/params"
-	"github.com/ethereumfair/go-ethereum/rlp"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/hexutil"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/params"
+	"github.com/ethxdao/go-ethereum/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

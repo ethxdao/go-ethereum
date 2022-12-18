@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/core"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/eth/protocols/eth"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/core"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/eth/protocols/eth"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network

@@ -22,10 +22,10 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/rlp"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

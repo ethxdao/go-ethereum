@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/math"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/math"
 	"github.com/holiman/uint256"
 )
 

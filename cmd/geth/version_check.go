@@ -26,9 +26,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereumfair/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/log"
 	"github.com/jedisct1/go-minisign"
-	"github.com/urfave/cli/v2"
 )
 
 var gethPubKeys []string = []string{

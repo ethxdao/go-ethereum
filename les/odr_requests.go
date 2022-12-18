@@ -21,15 +21,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/core/rawdb"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/ethdb"
-	"github.com/ethereumfair/go-ethereum/light"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/rlp"
-	"github.com/ethereumfair/go-ethereum/trie"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/core/rawdb"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/ethdb"
+	"github.com/ethxdao/go-ethereum/light"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/rlp"
+	"github.com/ethxdao/go-ethereum/trie"
 )
 
 var (

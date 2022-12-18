@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/ethereumfair/go-ethereum/internal/ethapi"
-	"github.com/ethereumfair/go-ethereum/internal/jsre/deps"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/signer/core"
-	"github.com/ethereumfair/go-ethereum/signer/storage"
+	"github.com/ethxdao/go-ethereum/internal/ethapi"
+	"github.com/ethxdao/go-ethereum/internal/jsre/deps"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/signer/core"
+	"github.com/ethxdao/go-ethereum/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

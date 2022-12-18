@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/ethereumfair/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/log"
 )
 
 type (

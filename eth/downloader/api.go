@@ -20,9 +20,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereumfair/go-ethereum"
-	"github.com/ethereumfair/go-ethereum/event"
-	"github.com/ethereumfair/go-ethereum/rpc"
+	"github.com/ethxdao/go-ethereum/event"
+	"github.com/ethxdao/go-ethereum/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.

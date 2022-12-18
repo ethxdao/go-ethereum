@@ -20,12 +20,12 @@ package catalyst
 import (
 	"errors"
 	"fmt"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/core/beacon"
-	"github.com/ethereumfair/go-ethereum/les"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/node"
-	"github.com/ethereumfair/go-ethereum/rpc"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/core/beacon"
+	"github.com/ethxdao/go-ethereum/les"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/node"
+	"github.com/ethxdao/go-ethereum/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

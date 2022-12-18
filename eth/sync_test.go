@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/eth/downloader"
-	"github.com/ethereumfair/go-ethereum/eth/protocols/eth"
-	"github.com/ethereumfair/go-ethereum/eth/protocols/snap"
-	"github.com/ethereumfair/go-ethereum/p2p"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
+	"github.com/ethxdao/go-ethereum/eth/downloader"
+	"github.com/ethxdao/go-ethereum/eth/protocols/eth"
+	"github.com/ethxdao/go-ethereum/eth/protocols/snap"
+	"github.com/ethxdao/go-ethereum/p2p"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

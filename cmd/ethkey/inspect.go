@@ -21,10 +21,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/accounts/keystore"
-	"github.com/ethereumfair/go-ethereum/cmd/utils"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/accounts/keystore"
+	"github.com/ethxdao/go-ethereum/cmd/utils"
+	"github.com/ethxdao/go-ethereum/crypto"
 )
 
 type outputInspect struct {

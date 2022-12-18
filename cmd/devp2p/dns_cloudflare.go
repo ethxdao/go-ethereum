@@ -21,10 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cloudflare/cloudflare-go"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/p2p/dnsdisc"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/p2p/dnsdisc"
 )
 
 var (

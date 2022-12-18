@@ -20,17 +20,17 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereumfair/go-ethereum/consensus/ethash"
-	"github.com/ethereumfair/go-ethereum/core"
-	//"github.com/ethereumfair/go-ethereum/core/beacon"
-	"github.com/ethereumfair/go-ethereum/core/rawdb"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/eth/downloader"
-	"github.com/ethereumfair/go-ethereum/eth/ethconfig"
-	"github.com/ethereumfair/go-ethereum/les"
-	"github.com/ethereumfair/go-ethereum/node"
-	"github.com/ethereumfair/go-ethereum/params"
+	"github.com/ethxdao/go-ethereum/consensus/ethash"
+	"github.com/ethxdao/go-ethereum/core"
+	//"github.com/ethxdao/go-ethereum/core/beacon"
+	"github.com/ethxdao/go-ethereum/core/rawdb"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/eth/downloader"
+	"github.com/ethxdao/go-ethereum/eth/ethconfig"
+	"github.com/ethxdao/go-ethereum/les"
+	"github.com/ethxdao/go-ethereum/node"
+	"github.com/ethxdao/go-ethereum/params"
 )
 
 var (

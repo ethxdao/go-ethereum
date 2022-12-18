@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/hexutil"
-	"github.com/ethereumfair/go-ethereum/common/math"
-	"github.com/ethereumfair/go-ethereum/core"
-	"github.com/ethereumfair/go-ethereum/core/rawdb"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/core/vm"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/eth/tracers"
-	"github.com/ethereumfair/go-ethereum/params"
-	"github.com/ethereumfair/go-ethereum/rlp"
-	"github.com/ethereumfair/go-ethereum/tests"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/hexutil"
+	"github.com/ethxdao/go-ethereum/common/math"
+	"github.com/ethxdao/go-ethereum/core"
+	"github.com/ethxdao/go-ethereum/core/rawdb"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/core/vm"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/eth/tracers"
+	"github.com/ethxdao/go-ethereum/params"
+	"github.com/ethxdao/go-ethereum/rlp"
+	"github.com/ethxdao/go-ethereum/tests"
 
 	// Force-load native and js packages, to trigger registration
-	_ "github.com/ethereumfair/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereumfair/go-ethereum/eth/tracers/native"
+	_ "github.com/ethxdao/go-ethereum/eth/tracers/js"
+	_ "github.com/ethxdao/go-ethereum/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

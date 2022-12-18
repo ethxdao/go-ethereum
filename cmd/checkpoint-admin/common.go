@@ -19,16 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereumfair/go-ethereum/accounts"
-	"github.com/ethereumfair/go-ethereum/accounts/abi/bind"
-	"github.com/ethereumfair/go-ethereum/accounts/external"
-	"github.com/ethereumfair/go-ethereum/cmd/utils"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereumfair/go-ethereum/ethclient"
-	"github.com/ethereumfair/go-ethereum/params"
-	"github.com/ethereumfair/go-ethereum/rpc"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/accounts"
+	"github.com/ethxdao/go-ethereum/accounts/abi/bind"
+	"github.com/ethxdao/go-ethereum/accounts/external"
+	"github.com/ethxdao/go-ethereum/cmd/utils"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/contracts/checkpointoracle"
+	"github.com/ethxdao/go-ethereum/ethclient"
+	"github.com/ethxdao/go-ethereum/params"
+	"github.com/ethxdao/go-ethereum/rpc"
 )
 
 // newClient creates a client with specified remote URL.

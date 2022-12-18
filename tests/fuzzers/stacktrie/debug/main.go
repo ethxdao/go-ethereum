@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/tests/fuzzers/stacktrie"
+	"github.com/ethxdao/go-ethereum/tests/fuzzers/stacktrie"
 )
 
 func main() {

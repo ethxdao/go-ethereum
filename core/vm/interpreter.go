@@ -19,9 +19,9 @@ package vm
 import (
 	"hash"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/math"
-	"github.com/ethereumfair/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/math"
+	"github.com/ethxdao/go-ethereum/log"
 )
 
 // Config are the configuration options for the Interpreter

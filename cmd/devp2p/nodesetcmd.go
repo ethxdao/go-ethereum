@@ -25,11 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/core/forkid"
-	"github.com/ethereumfair/go-ethereum/p2p/enr"
-	"github.com/ethereumfair/go-ethereum/params"
-	"github.com/ethereumfair/go-ethereum/rlp"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/core/forkid"
+	"github.com/ethxdao/go-ethereum/p2p/enr"
+	"github.com/ethxdao/go-ethereum/params"
+	"github.com/ethxdao/go-ethereum/rlp"
 )
 
 var (

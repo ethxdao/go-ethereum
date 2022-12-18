@@ -19,7 +19,7 @@ package snap
 import (
 	"math/big"
 
-	"github.com/ethereumfair/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common"
 	"github.com/holiman/uint256"
 )
 

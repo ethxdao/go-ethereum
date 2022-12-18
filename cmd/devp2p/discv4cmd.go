@@ -22,14 +22,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/internal/flags"
-	"github.com/ethereumfair/go-ethereum/p2p/discover"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
-	"github.com/ethereumfair/go-ethereum/params"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/internal/flags"
+	"github.com/ethxdao/go-ethereum/p2p/discover"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
+	"github.com/ethxdao/go-ethereum/params"
 )
 
 var (

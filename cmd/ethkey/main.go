@@ -20,8 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/internal/flags"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/internal/flags"
 )
 
 const (

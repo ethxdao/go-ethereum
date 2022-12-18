@@ -19,10 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereumfair/go-ethereum/internal/utesting"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/ethxdao/go-ethereum/internal/utesting"
+	"github.com/ethxdao/go-ethereum/log"
 )
 
 var (

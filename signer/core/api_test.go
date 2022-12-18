@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/accounts"
-	"github.com/ethereumfair/go-ethereum/accounts/keystore"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/hexutil"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/internal/ethapi"
-	"github.com/ethereumfair/go-ethereum/rlp"
-	"github.com/ethereumfair/go-ethereum/signer/core"
-	"github.com/ethereumfair/go-ethereum/signer/core/apitypes"
-	"github.com/ethereumfair/go-ethereum/signer/fourbyte"
-	"github.com/ethereumfair/go-ethereum/signer/storage"
+	"github.com/ethxdao/go-ethereum/accounts"
+	"github.com/ethxdao/go-ethereum/accounts/keystore"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/hexutil"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/internal/ethapi"
+	"github.com/ethxdao/go-ethereum/rlp"
+	"github.com/ethxdao/go-ethereum/signer/core"
+	"github.com/ethxdao/go-ethereum/signer/core/apitypes"
+	"github.com/ethxdao/go-ethereum/signer/fourbyte"
+	"github.com/ethxdao/go-ethereum/signer/storage"
 )
 
 //Used for testing

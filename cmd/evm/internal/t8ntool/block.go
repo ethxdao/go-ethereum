@@ -24,16 +24,15 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/hexutil"
-	"github.com/ethereumfair/go-ethereum/common/math"
-	"github.com/ethereumfair/go-ethereum/consensus/clique"
-	"github.com/ethereumfair/go-ethereum/consensus/ethash"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/rlp"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/hexutil"
+	"github.com/ethxdao/go-ethereum/common/math"
+	"github.com/ethxdao/go-ethereum/consensus/clique"
+	"github.com/ethxdao/go-ethereum/consensus/ethash"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec -type header -field-override headerMarshaling -out gen_header.go

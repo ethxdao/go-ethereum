@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ethereumfair/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

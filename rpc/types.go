@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/hexutil"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

@@ -22,10 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/common/fdlimit"
-	"github.com/ethereumfair/go-ethereum/internal/flags"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/common/fdlimit"
+	"github.com/ethxdao/go-ethereum/internal/flags"
+	"github.com/ethxdao/go-ethereum/log"
 )
 
 var (

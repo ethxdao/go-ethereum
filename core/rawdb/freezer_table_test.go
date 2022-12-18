@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereumfair/go-ethereum/metrics"
+	"github.com/ethxdao/go-ethereum/metrics"
 	"github.com/stretchr/testify/require"
 )
 

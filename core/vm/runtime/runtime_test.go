@@ -23,21 +23,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereumfair/go-ethereum/accounts/abi"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/consensus"
-	"github.com/ethereumfair/go-ethereum/core"
-	"github.com/ethereumfair/go-ethereum/core/asm"
-	"github.com/ethereumfair/go-ethereum/core/rawdb"
-	"github.com/ethereumfair/go-ethereum/core/state"
-	"github.com/ethereumfair/go-ethereum/core/types"
-	"github.com/ethereumfair/go-ethereum/core/vm"
-	"github.com/ethereumfair/go-ethereum/eth/tracers"
-	"github.com/ethereumfair/go-ethereum/eth/tracers/logger"
-	"github.com/ethereumfair/go-ethereum/params"
+	"github.com/ethxdao/go-ethereum/accounts/abi"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/consensus"
+	"github.com/ethxdao/go-ethereum/core"
+	"github.com/ethxdao/go-ethereum/core/asm"
+	"github.com/ethxdao/go-ethereum/core/rawdb"
+	"github.com/ethxdao/go-ethereum/core/state"
+	"github.com/ethxdao/go-ethereum/core/types"
+	"github.com/ethxdao/go-ethereum/core/vm"
+	"github.com/ethxdao/go-ethereum/eth/tracers"
+	"github.com/ethxdao/go-ethereum/eth/tracers/logger"
+	"github.com/ethxdao/go-ethereum/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ethereumfair/go-ethereum/eth/tracers/js"
+	_ "github.com/ethxdao/go-ethereum/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

@@ -20,9 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
 )
 
 var (

@@ -22,11 +22,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereumfair/go-ethereum/accounts/keystore"
-	"github.com/ethereumfair/go-ethereum/cmd/utils"
-	"github.com/ethereumfair/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/accounts/keystore"
+	"github.com/ethxdao/go-ethereum/cmd/utils"
+	"github.com/ethxdao/go-ethereum/crypto"
 	"github.com/google/uuid"
-	"github.com/urfave/cli/v2"
 )
 
 type outputGenerate struct {

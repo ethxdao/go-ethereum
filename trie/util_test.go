@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/core/rawdb"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/core/rawdb"
 )
 
 // Tests if the trie diffs are tracked correctly.

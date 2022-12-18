@@ -19,12 +19,12 @@ package main
 
 import (
 	"fmt"
+	"github.com/urfave/cli/v2"
 	"math/big"
 	"os"
 
-	"github.com/ethereumfair/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereumfair/go-ethereum/internal/flags"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/cmd/evm/internal/t8ntool"
+	"github.com/ethxdao/go-ethereum/internal/flags"
 )
 
 var (

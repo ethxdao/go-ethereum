@@ -21,9 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereumfair/go-ethereum/accounts/keystore"
-	"github.com/ethereumfair/go-ethereum/cmd/utils"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/accounts/keystore"
+	"github.com/ethxdao/go-ethereum/cmd/utils"
 )
 
 var newPassphraseFlag = &cli.StringFlag{

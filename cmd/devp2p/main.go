@@ -21,11 +21,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereumfair/go-ethereum/internal/debug"
-	"github.com/ethereumfair/go-ethereum/internal/flags"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
-	"github.com/ethereumfair/go-ethereum/params"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/internal/debug"
+	"github.com/ethxdao/go-ethereum/internal/flags"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
+	"github.com/ethxdao/go-ethereum/params"
 )
 
 var (

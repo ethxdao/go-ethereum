@@ -20,12 +20,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereumfair/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/p2p"
-	"github.com/ethereumfair/go-ethereum/p2p/rlpx"
-	"github.com/ethereumfair/go-ethereum/rlp"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/cmd/devp2p/internal/ethtest"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/p2p"
+	"github.com/ethxdao/go-ethereum/p2p/rlpx"
+	"github.com/ethxdao/go-ethereum/rlp"
 )
 
 var (

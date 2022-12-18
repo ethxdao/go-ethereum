@@ -45,14 +45,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereumfair/go-ethereum/crypto"
-	"github.com/ethereumfair/go-ethereum/internal/flags"
-	"github.com/ethereumfair/go-ethereum/p2p"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
-	"github.com/ethereumfair/go-ethereum/p2p/simulations"
-	"github.com/ethereumfair/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereumfair/go-ethereum/rpc"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/crypto"
+	"github.com/ethxdao/go-ethereum/internal/flags"
+	"github.com/ethxdao/go-ethereum/p2p"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
+	"github.com/ethxdao/go-ethereum/p2p/simulations"
+	"github.com/ethxdao/go-ethereum/p2p/simulations/adapters"
+	"github.com/ethxdao/go-ethereum/rpc"
 )
 
 var client *simulations.Client

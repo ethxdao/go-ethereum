@@ -24,12 +24,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/accounts/keystore"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/console/prompt"
-	"github.com/ethereumfair/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereumfair/go-ethereum/p2p/enode"
-	"github.com/urfave/cli/v2"
+	"github.com/ethxdao/go-ethereum/accounts/keystore"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/console/prompt"
+	"github.com/ethxdao/go-ethereum/p2p/dnsdisc"
+	"github.com/ethxdao/go-ethereum/p2p/enode"
 )
 
 var (

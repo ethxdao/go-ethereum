@@ -19,7 +19,7 @@ package types
 import (
 	"errors"
 
-	"github.com/ethereumfair/go-ethereum/rlp"
+	"github.com/ethxdao/go-ethereum/rlp"
 )
 
 // IsLegacyStoredReceipts tries to parse the RLP-encoded blob

@@ -25,26 +25,24 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereumfair/go-ethereum/accounts"
-	"github.com/ethereumfair/go-ethereum/accounts/keystore"
-	"github.com/ethereumfair/go-ethereum/cmd/utils"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/console/prompt"
-	"github.com/ethereumfair/go-ethereum/eth"
-	"github.com/ethereumfair/go-ethereum/eth/downloader"
-	"github.com/ethereumfair/go-ethereum/ethclient"
-	"github.com/ethereumfair/go-ethereum/internal/debug"
-	"github.com/ethereumfair/go-ethereum/internal/ethapi"
-	"github.com/ethereumfair/go-ethereum/internal/flags"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/metrics"
-	"github.com/ethereumfair/go-ethereum/node"
+	"github.com/ethxdao/go-ethereum/accounts"
+	"github.com/ethxdao/go-ethereum/accounts/keystore"
+	"github.com/ethxdao/go-ethereum/cmd/utils"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/console/prompt"
+	"github.com/ethxdao/go-ethereum/eth"
+	"github.com/ethxdao/go-ethereum/eth/downloader"
+	"github.com/ethxdao/go-ethereum/ethclient"
+	"github.com/ethxdao/go-ethereum/internal/debug"
+	"github.com/ethxdao/go-ethereum/internal/ethapi"
+	"github.com/ethxdao/go-ethereum/internal/flags"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/metrics"
+	"github.com/ethxdao/go-ethereum/node"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereumfair/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereumfair/go-ethereum/eth/tracers/native"
-
-	"github.com/urfave/cli/v2"
+	_ "github.com/ethxdao/go-ethereum/eth/tracers/js"
+	_ "github.com/ethxdao/go-ethereum/eth/tracers/native"
 )
 
 const (

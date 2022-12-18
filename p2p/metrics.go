@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/ethereumfair/go-ethereum/metrics"
+	"github.com/ethxdao/go-ethereum/metrics"
 )
 
 const (

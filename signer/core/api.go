@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/ethereumfair/go-ethereum/accounts"
-	"github.com/ethereumfair/go-ethereum/accounts/keystore"
-	"github.com/ethereumfair/go-ethereum/accounts/scwallet"
-	"github.com/ethereumfair/go-ethereum/accounts/usbwallet"
-	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/ethereumfair/go-ethereum/common/hexutil"
-	"github.com/ethereumfair/go-ethereum/internal/ethapi"
-	"github.com/ethereumfair/go-ethereum/log"
-	"github.com/ethereumfair/go-ethereum/rpc"
-	"github.com/ethereumfair/go-ethereum/signer/core/apitypes"
-	"github.com/ethereumfair/go-ethereum/signer/storage"
+	"github.com/ethxdao/go-ethereum/accounts"
+	"github.com/ethxdao/go-ethereum/accounts/keystore"
+	"github.com/ethxdao/go-ethereum/accounts/scwallet"
+	"github.com/ethxdao/go-ethereum/accounts/usbwallet"
+	"github.com/ethxdao/go-ethereum/common"
+	"github.com/ethxdao/go-ethereum/common/hexutil"
+	"github.com/ethxdao/go-ethereum/internal/ethapi"
+	"github.com/ethxdao/go-ethereum/log"
+	"github.com/ethxdao/go-ethereum/rpc"
+	"github.com/ethxdao/go-ethereum/signer/core/apitypes"
+	"github.com/ethxdao/go-ethereum/signer/storage"
 )
 
 const (
